@@ -74,7 +74,7 @@ class ThemedFontHandler {
           GoogleFonts.ubuntu().fontFamily!,
           'Roboto',
         ],
-        overflow: TextOverflow.ellipsis,
+        overflow: TextOverflow.visible,
       ),
       displayMedium: defaultTextTheme.displayMedium?.copyWith(
         color: isDark ? Colors.white : titleTextColor,
@@ -83,7 +83,7 @@ class ThemedFontHandler {
           GoogleFonts.ubuntu().fontFamily!,
           'Roboto',
         ],
-        overflow: TextOverflow.ellipsis,
+        overflow: TextOverflow.visible,
       ),
       displaySmall: defaultTextTheme.displaySmall?.copyWith(
         color: isDark ? Colors.white : titleTextColor,
@@ -92,7 +92,7 @@ class ThemedFontHandler {
           GoogleFonts.ubuntu().fontFamily!,
           'Roboto',
         ],
-        overflow: TextOverflow.ellipsis,
+        overflow: TextOverflow.visible,
       ),
       headlineLarge: defaultTextTheme.headlineLarge?.copyWith(
         color: isDark ? Colors.white : titleTextColor,
@@ -101,7 +101,7 @@ class ThemedFontHandler {
           GoogleFonts.ubuntu().fontFamily!,
           'Roboto',
         ],
-        overflow: TextOverflow.ellipsis,
+        overflow: TextOverflow.visible,
       ),
       headlineMedium: defaultTextTheme.headlineMedium?.copyWith(
         color: isDark ? Colors.white : titleTextColor,
@@ -110,7 +110,7 @@ class ThemedFontHandler {
           GoogleFonts.ubuntu().fontFamily!,
           'Roboto',
         ],
-        overflow: TextOverflow.ellipsis,
+        overflow: TextOverflow.visible,
       ),
       headlineSmall: defaultTextTheme.headlineSmall?.copyWith(
         color: isDark ? Colors.white : titleTextColor,
@@ -119,7 +119,7 @@ class ThemedFontHandler {
           GoogleFonts.ubuntu().fontFamily!,
           'Roboto',
         ],
-        overflow: TextOverflow.ellipsis,
+        overflow: TextOverflow.visible,
       ),
       titleLarge: defaultTextTheme.titleLarge?.copyWith(
         fontFamily: titleFontName,
@@ -127,7 +127,7 @@ class ThemedFontHandler {
           GoogleFonts.ubuntu().fontFamily!,
           'Roboto',
         ],
-        overflow: TextOverflow.ellipsis,
+        overflow: TextOverflow.visible,
       ),
       titleMedium: defaultTextTheme.titleMedium?.copyWith(
         fontFamily: titleFontName,
@@ -135,7 +135,7 @@ class ThemedFontHandler {
           GoogleFonts.ubuntu().fontFamily!,
           'Roboto',
         ],
-        overflow: TextOverflow.ellipsis,
+        overflow: TextOverflow.visible,
       ),
       titleSmall: defaultTextTheme.titleSmall?.copyWith(
         fontFamily: titleFontName,
@@ -143,7 +143,7 @@ class ThemedFontHandler {
           GoogleFonts.ubuntu().fontFamily!,
           'Roboto',
         ],
-        overflow: TextOverflow.ellipsis,
+        overflow: TextOverflow.visible,
       ),
       bodyLarge: defaultTextTheme.bodyLarge?.copyWith(
         fontFamily: bodyFontName,
@@ -151,7 +151,7 @@ class ThemedFontHandler {
           GoogleFonts.ubuntu().fontFamily!,
           'Roboto',
         ],
-        overflow: TextOverflow.ellipsis,
+        overflow: TextOverflow.visible,
       ),
       bodyMedium: defaultTextTheme.bodyMedium?.copyWith(
         fontFamily: bodyFontName,
@@ -159,7 +159,7 @@ class ThemedFontHandler {
           GoogleFonts.ubuntu().fontFamily!,
           'Roboto',
         ],
-        overflow: TextOverflow.ellipsis,
+        overflow: TextOverflow.visible,
       ),
       bodySmall: defaultTextTheme.bodySmall?.copyWith(
         fontFamily: bodyFontName,
@@ -167,7 +167,7 @@ class ThemedFontHandler {
           GoogleFonts.ubuntu().fontFamily!,
           'Roboto',
         ],
-        overflow: TextOverflow.ellipsis,
+        overflow: TextOverflow.visible,
       ),
       labelLarge: defaultTextTheme.bodySmall?.copyWith(
         fontFamily: bodyFontName,
@@ -175,7 +175,7 @@ class ThemedFontHandler {
           GoogleFonts.ubuntu().fontFamily!,
           'Roboto',
         ],
-        overflow: TextOverflow.ellipsis,
+        overflow: TextOverflow.visible,
       ),
       labelMedium: defaultTextTheme.bodySmall?.copyWith(
         fontFamily: bodyFontName,
@@ -183,7 +183,7 @@ class ThemedFontHandler {
           GoogleFonts.ubuntu().fontFamily!,
           'Roboto',
         ],
-        overflow: TextOverflow.ellipsis,
+        overflow: TextOverflow.visible,
       ),
       labelSmall: defaultTextTheme.bodySmall?.copyWith(
         fontFamily: bodyFontName,
@@ -191,7 +191,7 @@ class ThemedFontHandler {
           GoogleFonts.ubuntu().fontFamily!,
           'Roboto',
         ],
-        overflow: TextOverflow.ellipsis,
+        overflow: TextOverflow.visible,
       ),
     );
   }
